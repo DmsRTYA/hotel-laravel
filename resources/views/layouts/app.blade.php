@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title', 'The Grand Mugarsari') — Reservasi Hotel</title>
+    <title>@yield('title', '🏨The Grand Mugarsari') — Reservasi Hotel</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
@@ -105,7 +105,7 @@
     <div class="header-inner">
         <a href="{{ url('/') }}" class="logo">
             <span class="logo-main">✦ THE GRAND MUGARSARI</span>
-            <span class="logo-sub">Luxury Hotel &amp; Resort</span>
+            <span class="logo-sub">Hotel Mewah &amp; View Aduhai</span>
         </a>
         <nav class="nav-links">
             <a href="{{ url('/') }}#form-pesan"   class="nav-btn">Reservasi</a>
@@ -115,11 +115,6 @@
 </header>
 
 @yield('content')
-
-<footer>
-    &copy; {{ date('Y') }} <span>The Grand Mugarsari Hotel</span>
-    — Sistem Reservasi &bull; Powered by <span>Laravel</span>
-</footer>
 
 @stack('scripts')
 </body>
